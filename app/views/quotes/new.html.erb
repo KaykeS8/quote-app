@@ -1,9 +1,10 @@
 <main class="container">
   <%= link_to sanitize("&larr; Back to quotes"), quotes_path%>
-
   <div class="header">
     <h1>new Quote</h1>
   </div>
 
-  <%= render "form", quote: @quote %>
+  <%= turbo_frame_tag "first_turbo_frame" do%>
+    <%= render "form", quote: @quote %>
+  <% end %>
 </main>
