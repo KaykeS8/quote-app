@@ -1,17 +1,14 @@
-// Mixins
-@import "mixins/media";
+@import "./mixins/_media.scss";
 
-// Configuration
-@import "config/variables";
-@import "config/reset";
+@import "./config/_variables.scss";
+@import "./config/_reset.scss";
 
-// Components
-@import "components/btn";
-@import "components/error_message";
-@import "components/form";
-@import "components/visually_hidden";
-@import "components/quote";
+@import "./components/_btn.scss";
+@import "./components/_error_message.scss";
+@import "./components/_form.scss";
+@import "./components/_visually_hidden.scss";
+@import "./components/_quote.scss";
+@import "./components/_turbo_progress_bar.scss";
 
-// Layouts
-@import "layouts/container";
-@import "layouts/header";
+@import "./layouts/_container.scss";
+@import "./layouts/_header.scss";
