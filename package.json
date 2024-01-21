@@ -8,6 +8,9 @@
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
-    "build:css": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets"
+    "build:css": "sass --load-path=node_modules app/assets/stylesheets/application.sass.scss app/assets/builds/application.css"
+  },
+  "devDependencies": {
+    "esbuild-plugin-sass": "^1.0.1"
   }
 }
