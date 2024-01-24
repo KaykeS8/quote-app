@@ -8,4 +8,4 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 puts "\n== Seeding the database with fixtures =="
-system("bin/rails db:fixtures:load")
+system("rails db:fixtures:load")
