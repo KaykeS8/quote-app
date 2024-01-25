@@ -2,6 +2,7 @@
 
 @import "./config/_variables.scss";
 @import "./config/_reset.scss";
+@import "./config/_animation.scss";
 
 @import "./components/_btn.scss";
 @import "./components/_error_message.scss";
@@ -10,6 +11,8 @@
 @import "./components/_quote.scss";
 @import "./components/_turbo_progress_bar.scss";
 @import "./components/_navbar.scss";
+@import "./components/_flash.scss";
+@import "./components/_empty_state.scss";
 
 @import "./layouts/_container.scss";
 @import "./layouts/_header.scss";
